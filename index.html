@@ -1,12 +1,30 @@
-<div style="background:linear-gradient(145deg,#2b0059,#0a0020); color:white; padding:30px; border-radius:20px; max-width:480px; font-family:'Poppins', sans-serif; box-shadow:0 0 25px rgba(194,123,160,0.3); margin:auto; text-align:center; overflow:hidden; position:relative;">
-  <h2 style="color:#d8a6ff; text-transform:uppercase; letter-spacing:1px; animation:fadeIn 1s;">Convertisseur Euro → DZD</h2>
+<div style="
+  background:linear-gradient(145deg, rgba(43,0,89,0.9), rgba(10,0,32,0.9)), 
+  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADgSCa0AAAABHNCSVQICAgIfAhkiAAAAZlJREFUeJzt3cEJACAQwECF+Nc2g3XjBOcQ7p+0wEAAAAAAAAAAAAAAAAAAABw5umdm3sUAAAAAADg2oz8iQAAAAAAAO6wBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwLcAAAXFPR6QAAAAASUVORK5CYII=') 
+  no-repeat center/cover;
+  color:white; 
+  padding:30px; 
+  border-radius:20px; 
+  max-width:480px; 
+  font-family:'Poppins', sans-serif; 
+  box-shadow:0 0 25px rgba(194,123,160,0.4); 
+  margin:auto; 
+  text-align:center; 
+  overflow:hidden; 
+  position:relative;
+">
+  <h2 style="color:#d8a6ff; text-transform:uppercase; letter-spacing:1px; animation:fadeIn 1s;">
+    Convertisseur Euro → DZD
+  </h2>
   
   <div style="margin-top:15px; text-align:left; animation:slideIn 1s;">
     <label for="euro">Montant en € :</label><br>
-    <input type="number" id="euro" placeholder="Ex: 50" style="margin:8px 0; padding:10px; border-radius:8px; border:none; width:100%; font-size:1em;"><br>
+    <input type="number" id="euro" placeholder="Ex: 50" 
+      style="margin:8px 0; padding:10px; border-radius:8px; border:none; width:100%; font-size:1em;"><br>
 
     <label for="typeProduit">Type de produit :</label><br>
-    <select id="typeProduit" style="margin:8px 0; padding:10px; border-radius:8px; border:none; width:100%; font-size:1em;">
+    <select id="typeProduit" 
+      style="margin:8px 0; padding:10px; border-radius:8px; border:none; width:100%; font-size:1em;">
       <option value="Accessories">Accessoires</option>
       <option value="Child Clothes">Vêtement enfant</option>
       <option value="Baby Clothes">Vêtement nouveau-né</option>
@@ -19,7 +37,9 @@
     </select><br>
   </div>
 
-  <button onclick="calculer()" style="background:#c27ba0; color:white; border:none; padding:12px 20px; border-radius:10px; margin-top:15px; width:100%; font-weight:bold; font-size:1.1em; cursor:pointer; transition:all 0.3s;" 
+  <button onclick="calculer()" 
+    style="background:#c27ba0; color:white; border:none; padding:12px 20px; border-radius:10px; 
+           margin-top:15px; width:100%; font-weight:bold; font-size:1.1em; cursor:pointer; transition:all 0.3s;" 
     onmouseover="this.style.background='#e1a4d8'" 
     onmouseout="this.style.background='#c27ba0'">
     Calculer
